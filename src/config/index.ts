@@ -2,11 +2,10 @@ import { Metadata } from "next";
 
 export const SITE_CONFIG: Metadata = {
     title: {
-        // write a default title for astra a ai powered website builder suggest something unique and catchy don't use the same words of ai powered website builder give a unique name
-        default: "Astra - AI Powered Website Builder",
-        template: `%s | Astra`
+        default: "Kiraye - Rental Store",
+        template: `%s | Kiraye`
     },
-    description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+    description: "Kiraye is a versatile rental platform that makes it easy to find and manage all types of rentals, from properties to everyday items.",
     icons: {
         icon: [
             {
@@ -16,8 +15,8 @@ export const SITE_CONFIG: Metadata = {
         ]
     },
     openGraph: {
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        title: "Kiraye - Rental Store",
+        description: "Kiraye is a versatile rental platform that makes it easy to find and manage all types of rentals, from properties to everyday items.",
         images: [
             {
                 url: "/assets/og-image.png",
@@ -26,14 +25,14 @@ export const SITE_CONFIG: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        creator: "@shreyassihasane",
-        title: "Astra - AI Powered Website Builder",
-        description: "Astra is an AI powered website builder that helps you create a website in minutes. No coding skills required. Get started for free!",
+        creator: "@muminbashir",
+        title: "Kiraye - Rental Store",
+        description: "Kiraye is a versatile rental platform that makes it easy to find and manage all types of rentals, from properties to everyday items.",
         images: [
             {
                 url: "/assets/og-image.png",
             }
         ]
     },
-    metadataBase: new URL("https://astra-app.vercel.app"),
+    metadataBase: new URL("https://kiraye-app.vercel.app"),
 };

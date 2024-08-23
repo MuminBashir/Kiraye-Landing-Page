@@ -35,39 +35,63 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Astra AI
+                                Introducing Kiraye
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </button>
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
                             <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b from-gray-50 to-gray-50 text-transparent">
-                                Build your next idea and ship your dream site
+                            Rent Anything, Rent Everything!
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
+                            From tools to hostels to transportation, find what you need, when you need it, with seamless rentals at your fingertips.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                                 <Link href="#" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Start building your dream website now!
+                                        ✨ {"  "} Start Renting Smarter Today!
                                     </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
-                                        Get Started
+                                        Download App
                                         <ArrowRight className="w-4 h-4 ml-1" />
                                     </Button>
                                 </Link>
                             </div>
                         </div>
 
-                        <div className="relative flex items-center py-10 md:py-20 w-full">
+                        <div className="relative flex items-center md:gap-20 gap-10 py-10 md:py-20 w-full">
                             <div className="absolute top-1/2 left-1/2 -z-10 gradient w-3/4 -translate-x-1/2 h-3/4 -translate-y-1/2 inset-0 blur-[10rem]"></div>
                             <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
                                 <Image
-                                    src="/assets/dashboard.svg"
+                                    src="/assets/dashboard2.jpeg"
                                     alt="banner image"
-                                    width={1200}
-                                    height={1200}
+                                    width={400}
+                                    height={400}
+                                    quality={100}
+                                    className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
+                                />
+
+                                <BorderBeam size={250} duration={12} delay={9} />
+                            </div>
+                            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
+                                <Image
+                                    src="/assets/dashboard.jpeg"
+                                    alt="banner image"
+                                    width={400}
+                                    height={400}
+                                    quality={100}
+                                    className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
+                                />
+
+                                <BorderBeam size={250} duration={12} delay={9} />
+                            </div>
+                            <div className="-m-2 rounded-xl p-2 ring-1 ring-inset ring-foreground/20 lg:-m-4 lg:rounded-2xl bg-opacity-50 backdrop-blur-3xl">
+                                <Image
+                                    src="/assets/dashboard3.jpeg"
+                                    alt="banner image"
+                                    width={400}
+                                    height={400}
                                     quality={100}
                                     className="rounded-md lg:rounded-xl bg-foreground/10 shadow-2xl ring-1 ring-border"
                                 />
@@ -85,10 +109,10 @@ const HomePage = () => {
                     <div className="max-w-md mx-auto text-start md:text-center">
                         <SectionBadge title="The Process" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            Three steps to rent your stuff
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Rent amy item in just 3 simple steps
                         </p>
                     </div>
                 </Container>
@@ -124,7 +148,7 @@ const HomePage = () => {
                             Discover our powerful features
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            Kiraye offers a range of features to help you rent your items with ease
                         </p>
                     </div>
                 </Container>
@@ -155,7 +179,7 @@ const HomePage = () => {
             </Wrapper>
 
             {/* pricing */}
-            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+            {/* <Wrapper className="flex flex-col items-center justify-center py-12 relative">
                 <div className="hidden md:block absolute top-0 -right-1/3 w-72 h-72 bg-blue-500 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
@@ -211,10 +235,10 @@ const HomePage = () => {
                         ))}
                     </div>
                 </Container>
-            </Wrapper>
+            </Wrapper> */}
 
             {/* testimonials */}
-            <Wrapper className="flex flex-col items-center justify-center py-12 relative">
+            {/* <Wrapper className="flex flex-col items-center justify-center py-12 relative">
                 <div className="hidden md:block absolute -top-1/4 -left-1/3 w-72 h-72 bg-indigo-500 rounded-full blur-[10rem] -z-10"></div>
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
@@ -279,7 +303,7 @@ const HomePage = () => {
                         </div>
                     </div>
                 </Container>
-            </Wrapper>
+            </Wrapper> */}
 
             {/* newsletter */}
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
@@ -287,14 +311,14 @@ const HomePage = () => {
                     <LampContainer>
                         <div className="flex flex-col items-center justify-center relative w-full text-center">
                             <h2 className="text-4xl lg:text-5xl xl:text-6xl lg:!leading-snug font-semibold mt-8">
-                                From Idea to Launch <br /> Faster Than Ever
+                            From Discovery to Renting items <br /> In Record Time 
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Rent apps seamlessly with Kiraye&apos;s interative and easy to use application
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
-                                    Get started for free
+                                    Download now
                                     <ArrowRight className="w-4 h-4 ml-2" />
                                 </Link>
                             </Button>
@@ -309,7 +333,7 @@ const HomePage = () => {
                                     Join our newsletter
                                 </h4>
                                 <p className="text-base text-muted-foreground">
-                                    Be up to date with everything about AI builder
+                                    Be up to date with everything about Kiraye
                                 </p>
                             </div>
                             <div className="flex flex-col items-start gap-2 md:min-w-80 mt-5 md:mt-0 w-full md:w-max">

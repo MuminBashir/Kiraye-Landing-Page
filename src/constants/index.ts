@@ -4,50 +4,50 @@ export const perks = [
     {
         icon: Icons.auth,
         title: "Sign Up",
-        info: "Create your free account to get started with Astra.",
+        info: "Create your free account to get started with Kiraye.",
     },
     {
         icon: Icons.customize,
-        title: "Customize",
-        info: "Choose a template and customize it to fit your needs.",
+        title: "Create Post",
+        info: "Choose from the available categories, upload images and write relevent description",
     },
     {
         icon: Icons.launch,
-        title: "Launch",
-        info: "Publish your website and share it with the world.",
+        title: "Upload",
+        info: "Publish your post and share it with the world.",
     },
 ];
 
 export const features = [
     {
         icon: Icons.bolt,
-        title: "Fast Setup",
-        info: "Get your website up and running in minutes with our intuitive AI-powered builder.",
+        title: "Easy Login & Registration",
+        info: "Quickly create an account and log in to start renting or listing items within minutes.",
     },
     {
         icon: Icons.palette,
-        title: "Customizable Templates",
-        info: "Choose from a variety of stunning templates and customize them to suit your brand.",
-    },
-    {
-        icon: Icons.seo,
-        title: "SEO Optimized",
-        info: "Built-in SEO features ensure your website ranks well on search engines.",
+        title: "Diverse Product Listings",
+        info: "Browse a wide range of items available for rent, from everyday essentials to luxury goods",
     },
     {
         icon: Icons.monitor,
-        title: "Responsive Design",
-        info: "Your website will look great on any device, from desktops to mobile phones.",
+        title: "Seamless Product Upload",
+        info: "Effortlessly upload and manage your items for rent with an intuitive interface.",
+    },
+    {
+        icon: Icons.seo,
+        title: "User-Friendly Search & Filters",
+        info: "Easily find what you need with advanced search options and filters tailored to your preferences.",
     },
     {
         icon: Icons.shop,
-        title: "E-Commerce Ready",
-        info: "Start selling online with our e-commerce features and integrations.",
+        title: "Secure Transactions",
+        info: "Enjoy safe and secure rental transactions with our trusted payment gateway.",
     },
     {
         icon: Icons.server,
-        title: "Secure Hosting",
-        info: "Enjoy peace of mind with secure and reliable hosting for your website.",
+        title: "Real-Time Notifications",
+        info: "Stay updated with instant notifications on new listings, rental status, and messages.",
     },
 ];
 
